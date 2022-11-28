@@ -8,14 +8,14 @@
 
 ```sh
 ├── common
-│   ├── callback-auth.php     // [브랜드페이 인증]https://docs.tosspayments.com/guides/brandpay/auth
-│   └── confirm-payment.php   
-│   └── var.php
+│   ├── var.php // 사전 세팅 (API KEY 등)
+│   └── confirm-payment.php // 결제승인(https://docs.tosspayments.com/reference/brandpay#결제-승인)
+│   └── callback-auth.php   // 인증(https://docs.tosspayments.com/guides/brandpay/auth)
 │
 ├── static
 │   ├── image
 │   └── css
 │
-├── quickstart                 // 기본연동
-└── widget                     // 위젯 연동
+├── quickstart // 기본연동
+└── widget // 위젯 연동
 ```
