@@ -7,5 +7,15 @@
 
 
 ```sh
-common/var.php 내 API KEY 및 Recirect Url은 먼저 세팅합니다. 
+├── common
+│   ├── callback-auth.php     // [브랜드페이 인증]https://docs.tosspayments.com/guides/brandpay/auth
+│   └── confirm-payment.php   
+│   └── var.php
+│
+├── static
+│   ├── image
+│   └── css
+│
+├── quickstart                 // 기본연동
+└── widget                     // 위젯 연동
 ```
