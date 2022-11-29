@@ -5,15 +5,15 @@
 
 ## 시작하기 
 
-- `var.` : 시작하기 전에 API KEY 및 Redircet Url 변수를 설정해주셔야 합니다. 
-- `confirm-payment.` : [결제승인 API](https://docs.tosspayments.com/reference/brandpay#%EA%B2%B0%EC%A0%9C-%EC%8A%B9%EC%9D%B8) 호출 부분입니다. 
-- `callback-auth.` : 브랜드페이 SDK 사용을 위해, Redirect Url을 통한 인증 영역입니다. (링크)[https://docs.tosspayments.com/guides/brandpay/auth]
+- `var.php` : 시작하기 전에 API KEY 및 Redircet Url 변수를 설정해주셔야 합니다. 
+- `confirm-payment.php` : [결제승인 API](https://docs.tosspayments.com/reference/brandpay#%EA%B2%B0%EC%A0%9C-%EC%8A%B9%EC%9D%B8) 호출 부분입니다. 
+- `callback-auth.php` : 브랜드페이 SDK 사용을 위해, Redirect Url을 통한 인증 영역입니다. ([링크](https://docs.tosspayments.com/guides/brandpay/auth))
 
 ```sh
 ├── common
-│   ├── var. 
-│   └── confirm-payment.
-│   └── callback-auth.   
+│   ├── var.php 
+│   └── confirm-payment.php
+│   └── callback-auth.php   
 │
 ├── static
 │   ├── image
